@@ -2,7 +2,7 @@
 
 ## Add-on Details
 - Add header field.
-
+- Change font size.
 
 ## Creator
 Phumin Mukem `6210110272`
