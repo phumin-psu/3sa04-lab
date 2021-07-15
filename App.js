@@ -11,6 +11,8 @@ import WeatherScreen from './screen/WeatherScreen';
 const Stack = createStackNavigator();
 
 export default function App() {
+  const [number, onChangeNumber] = React.useState(null);
+
   return (
     <NavigationContainer>
       <Stack.Navigator>

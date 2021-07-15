@@ -33,6 +33,7 @@ export default function Weather(props) {
                 <View style={styles.WeatherBG}>
                     <Text style={styles.WeatherT}>Zip Code is {props.zipCode}</Text>
                     <Forecast {...forecastInfo} />
+                    <Text style={styles.WeatherT}>Powered by openweathermap.org</Text>
                 </View>
             </ImageBackground>
         </View>
@@ -55,7 +56,7 @@ const styles = StyleSheet.create({
     WeatherBG: {
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
         width: '100%',
-        height: '50%',
+        height: '55%',
     },
 });
 
