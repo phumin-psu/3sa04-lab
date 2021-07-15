@@ -1,6 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 import React from "react";
-import { FlatList, StatusBar, View, Text } from "react-native";
+import { FlatList, StatusBar, View, Text, StyleSheet } from "react-native";
 
 const availableZipItems = [
     { place: 'Hatyai', code: '90110' },
@@ -11,7 +11,7 @@ const availableZipItems = [
 ]
 
 const ZipItem = ({place, code, navigation}) => (
-    <View>
+    <View style={styles.zipI}>
         <Text>{place}</Text>
         <Text>{code}</Text>
     </View>
@@ -30,6 +30,18 @@ export default function ZipCodeScreen(){
             <StatusBar style="auto" />
         </View>
     );
-
 }
-   
+
+const styles = StyleSheet.create({
+    zipI: {
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+    zipP: {
+        flex: 1,
+    },
+    zipC: {
+        flex: 1,
+    }
+})
