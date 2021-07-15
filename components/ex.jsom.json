@@ -1,0 +1,43 @@
+{
+    "coord":{
+        "lon":100.4378,
+        "lat":7.1026
+    },
+    "weather":[
+        {
+            "id":803,
+            "main":"Clouds",
+            "description":"broken clouds",
+            "icon":"04d"
+        }
+    ],
+    "base":"stations",
+    "main":{
+        "temp":28.13,
+        "feels_like":31.5,
+        "temp_min":28.13,
+        "temp_max":28.13,
+        "pressure":1008,
+        "humidity":74
+    },
+    "visibility":10000,
+    "wind":{
+        "speed":2.06,
+        "deg":120
+    },
+    "clouds":{
+        "all":75
+    },
+    "dt":1626321326,
+    "sys":{
+        "type":1,
+        "id":9282,
+        "country":"TH",
+        "sunrise":1626304146,
+        "sunset":1626349132
+    },
+    "timezone":25200,
+    "id":1610780,
+    "name":"Hat Yai",
+    "cod":200
+}
