@@ -8,6 +8,8 @@ export default function Weather(props) {
         description: 'Loading...',
         temp: 'Loading...',
         place: 'Loading...',
+        pressure: 'Loading...',
+        humidity: 'Loading...',
     })
 
     useEffect(() => {
@@ -20,7 +22,9 @@ export default function Weather(props) {
                     main: json.weather[0].main,
                     description: json.weather[0].description,
                     temp: json.main.temp,
-                    place: json.name
+                    place: json.name,
+                    pressure: json.main.pressure,
+                    humidity: json.main.humidity,
                 });
             })
             .catch((error) => {
@@ -58,7 +62,7 @@ const styles = StyleSheet.create({
     WeatherBG: {
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
         width: '100%',
-        height: '60%',
+        height: '65%',
     },
 });
 

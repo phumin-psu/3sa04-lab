@@ -7,6 +7,7 @@
 - Change value for waiting when data is fetching.
 - Enter custom zip code.
 - Add place show in Weather screen.
+- Add Pressure & Humidity
 
 ## Creator
 Phumin Mukem `6210110272`
