@@ -27,6 +27,10 @@ export default function ZipCodeScreen(){
     const navigation = useNavigation()
     return (
         <View>
+            <View style={styles.zipH}>
+                <Text>Place</Text>
+                <Text>Code</Text>
+            </View>
             <FlatList
                 data={availableZipItems}
                 keyExtractor={_keyExtractor}
@@ -40,6 +44,10 @@ export default function ZipCodeScreen(){
 const styles = StyleSheet.create({
     zipI: {
         flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+    zipH: {
         flexDirection: 'row',
         justifyContent: 'space-between',
     },
