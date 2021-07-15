@@ -5,8 +5,8 @@ import Weather from './components/Weather';
 import Constants from 'expo-constants';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import ZipCodeScreen from './components/screen/ZipCodeScreen';
-import WeatherScreen from './components/screen/WeatherScreen';
+import ZipCodeScreen from './screen/ZipCodeScreen';
+import WeatherScreen from './screen/WeatherScreen';
 
 const Stack = createStackNavigator();
 
